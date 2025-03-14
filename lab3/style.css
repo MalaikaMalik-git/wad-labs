@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #f8f9fa;
+  --main-color: #343a40;
+  --header-bg-color: #ffcc00;
+  --header-color: #1e1e2e;
+  --main-section-bg-color: #f9f9;
+}
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+}
+header {
+  background-color: var(--header-bg-color);
+  color: var(--header-color);
+
+  padding: 15px;
+}
+
+.profile-name img {
+  height: 70px;
+  width: auto;
+  border-radius: 50%;
+}
+
+#heading {
+  padding-left: 35%;
+  display: inline;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 80%;
+}
+
+.main-section {
+  max-width: 1000px;
+  margin: 10px 10px;
+  padding: 20px;
+}
+.main-section .article .posted {
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.main-section .article {
+  background-color: var(--main-section-bg-color);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10%;
+}
+.artcle-main-heading {
+  align-content: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.article .article-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.heading-2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.heading3 {
+  align-content: center;
+  padding-left: 30%;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+.benefits {
+  padding: 30px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+.healthy {
+  margin-top: 5%;
+  width: 400px;
+  height: 400px;
+  float: right;
+  border-radius: 50%;
+  margin-right: 1.5%;
+}
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 470px;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 24px;
+  padding: 25px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  float: right;
+  margin-bottom: 5%;
+  background-color: #b0e0e6;
+}
+.image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #b0e0e6;
+  padding: 3px;
+}
+.image .profile-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.profile-card .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.bio {
+  margin-top: 3%;
+  font-weight: bold;
+}
+
+.followers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.followers img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  margin-top: 0;
+}
+
+.followers-count {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 30%;
+  background-color: var(--header-bg-color);
+  padding: 2.5%;
+  text-align: center;
+}
+.footer-text {
+  font-weight: bold;
+  font-size: 17px;
+}
