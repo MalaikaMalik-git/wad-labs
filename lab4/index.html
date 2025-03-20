@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab Task 4 Tables and Forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="profile-name">
+        <img src="logo.png" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <table>
+        <caption class="title-table">
+          Student Information of Quaid e Azam University
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Select:</th>
+            <th scope="col">Student ID</th>
+            <th scope="col">Full Name</th>
+            <th scope="col" class="sem-class">Semester</th>
+            <th scope="col">Address</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">Gender</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+            <th scope="row">04072213015</th>
+
+            <td>Malaika Malik</td>
+            <td>6</td>
+            <td>Sargodha</td>
+            <td>3874823758</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+
+            <th scope="row">04072213016</th>
+            <td>Manahil Fatima</td>
+            <td>6</td>
+            <td>Multan</td>
+            <td>3874825768</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+
+            <th scope="row">04072213017</th>
+            <td>Sumbul Zahra</td>
+            <td>6</td>
+            <td>Islamabad</td>
+            <td>38748223144</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+
+            <th scope="row">04072213018</th>
+            <td>Kalsoom Khan</td>
+            <td>6</td>
+            <td>Islamabad</td>
+            <td>3877873144</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+
+            <th scope="row">04072213019</th>
+            <td>Noor Fatima</td>
+            <td>6</td>
+            <td>Islamabad</td>
+            <td>3878378374</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+
+            <th scope="row">04072213015</th>
+            <td>Malaika Malik</td>
+            <td>6</td>
+            <td>Sargodha</td>
+            <td>3874823758</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+
+            <th scope="row">04072213016</th>
+            <td>Manahil Fatima</td>
+            <td>6</td>
+            <td>Multan</td>
+            <td>3874825768</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+
+            <th scope="row">04072213017</th>
+            <td>Sumbul Zahra</td>
+            <td>6</td>
+            <td>Islamabad</td>
+            <td>38748223144</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+
+            <th scope="row">04072213018</th>
+            <td>Kalsoom Khan</td>
+            <td>6</td>
+            <td>Islamabad</td>
+            <td>3877873144</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="checkbox" id="checkbox" /></td>
+
+            <th scope="row">04072213019</th>
+            <td>Noor Fatima</td>
+            <td>6</td>
+            <td>Islamabad</td>
+            <td>3878378374</td>
+            <td>Female</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <section class="form-container">
+        <h2>Student Record QAU</h2>
+        <form action="#" method="post">
+          <label for="id">Student ID:</label>
+          <input type="text" id="id" name="id" required />
+
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="semester">Semester:</label>
+          <select name="semester" id="semester">
+            <option value="" disabled selected>Select Semester</option>
+            <option value="1">1st Semester</option>
+            <option value="2">2nd Semester</option>
+            <option value="3">3rd Semester</option>
+            <option value="4">4th Semester</option>
+            <option value="4">5th Semester</option>
+            <option value="4">6th Semester</option>
+            <option value="4">7th Semester</option>
+            <option value="4">8th Semester</option>
+          </select>
+
+          <label for="address">Address:</label>
+          <textarea name="address" id="address" required></textarea>
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required />
+
+          <fieldset>
+            <legend>Gender:</legend>
+            <label><input type="radio" name="gender" value="male" />Male</label>
+            <label
+              ><input type="radio" name="gender" value="female" />Female</label
+            >
+          </fieldset>
+
+          <label for="dob">Date Of Birth:</label>
+          <input type="date" id="dob" name="dob" />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <div>
+        <h1>SHORT REPORT</h1>
+        <p class="table-para">
+          In tables, i used 7 columns and 10 rows , i also used checkbox in
+          tables just to eperience new things, i got that idea from figma, also
+          i tried to make it visually appealing by using soft colors and smooth
+          transitions when hovering.
+        </p>
+        <p class="form-para">
+          In form , i used 5 different types of having inputs , i used different
+          types to enhance my skills, i also added a submit button , and smooth
+          transition when hover onto form container , also i highlighted borders
+          of input boxes to make it visually appealing.
+        </p>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer-text">
+        &copy; 2025 My Website. All rights reserved. Unauthorized use or
+        duplication without written permission is prohibited.
+      </p>
+    </footer>
+  </body>
+</html>
